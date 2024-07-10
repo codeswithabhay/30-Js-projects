@@ -1,1 +1,1 @@
-__30__ __Js__ __Must__ __Projects__ __for__ BEginners__ __-HTML__CSS__JS__
+# 30 JS Projects for Beginners - _HTML/CSS,_
