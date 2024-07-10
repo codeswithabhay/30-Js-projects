@@ -1,5 +1,5 @@
 # 30 JS Projects for Beginners - HTML/CSS,
-### These projects boost your javascript skills.
+### These projects boost your javascript skills. Beginners to Advance
 
 | #  | Projects | Live Demo |
 | ---| ------------- | ------------- | 
