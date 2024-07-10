@@ -1,6 +1,6 @@
 # 30 JS Projects for Beginners - HTML/CSS,
 
-| #  | Second Header | Second Header |
+| #  | Projects | Live Demo |
 | ---| ------------- | ------------- | 
-| 1  | fffffffffffff    |               |
-| 2  | Content Cell  |
+| 1  |    First projects | [live demo](url) |
+| 2  | Comingsoon..  | [live demo](url)|
