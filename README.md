@@ -1,1 +1,1 @@
-# 30 JS Projects for Beginners - _HTML/CSS,_
+# 30 JS Projects for Beginners - HTML/CSS,
