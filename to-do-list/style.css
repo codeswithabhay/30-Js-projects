@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: "Poppins",sans-serif;
+    /* color: #fff;
+    background-color: #292929; */
+   
+  }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg, rgb(94, 93, 93), rgb(0, 0, 0)) ;
+    padding-top: 100px;
+   
+}  
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 0 auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    
+}
+
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+.todo-app h2 img{
+    width: 40px;
+    margin-left: 10px;
+
+  
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.row input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #edeef0;
+    padding: 10px 60px;
+    border-style: none;
+    font-weight: 14;
+}
+.row button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(153, 33, 201, 0.842); 
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+ul li::before{
+    content: ' ';
+    position: absolute;
+    height: 25px;
+    width:  25px;
+    border-radius:50% ;
+    border: 2px solid rgb(61, 59, 59);
+    background-size: cover ;
+    background-position: center;
+    margin-left: -40px;
+   
+    
+}
+ul  .checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul  .checked::before{
+    background-image: url(img/tick2.png);
+
+}
+ul li span {
+    border-radius: 50% ;
+    background-color: rgba(85, 85, 85, 0.26);
+    padding: 0px 6px;
+    /* margin-left: 60%; */
+    text-decoration: none;
+}
+ul li span:hover{
+    background-color: rgba(85, 85, 85, 0.555);
+    cursor: pointer;
+}
